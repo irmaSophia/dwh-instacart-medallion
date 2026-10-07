@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Datos pesados de Instacart (No subir a GitHub)
+data/raw/*
+!data/raw/.gitkeep
+
+# Base de datos local
+database/*.duckdb
+database/*.db
+
+# Entorno virtual y cache de Python
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
